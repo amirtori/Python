@@ -8,3 +8,4 @@ while i < x:                            # (3, S) wVRB->(firstLine(B, S) when S[i
         text = text + "#"               # (8, S.text) -> (PC + 1, S[text -> (S.text + (""))])
         j += 1                          # (9, S.j) -> (PC + 1, S[j-> (S.j + (1))])
     print(text)                         # (10, S.text) -> (PC + 1, S[text -> print(S.text)])
+#####
